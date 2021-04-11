@@ -1,0 +1,22 @@
+{
+  "name": "wbdv-sp21-02-bdourdoufis-server-node",
+  "version": "1.0.0",
+  "description": "Node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdourdoufis/wbdv-sp21-02-bdourdoufis-server-node.git"
+  },
+  "author": "Brennan Dourdoufis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdourdoufis/wbdv-sp21-02-bdourdoufis-server-node/issues"
+  },
+  "homepage": "https://github.com/bdourdoufis/wbdv-sp21-02-bdourdoufis-server-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
