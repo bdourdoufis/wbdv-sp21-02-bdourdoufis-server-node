@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/whiteboard',
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/whiteboard',
     {useNewUrlParser: true, useUnifiedTopology: true})
 app.use(express.json())
 app.use(express.urlencoded())
